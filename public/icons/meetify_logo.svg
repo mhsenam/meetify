@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#f03e3e"/>
+    </linearGradient>
+    <filter id="Meetify" x="21" y="187" width="471" height="153" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="512" height="512" fill="rgba(255,255,255,0)"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(20 20)" stroke="#fff" stroke-width="3" fill="url(#linear-gradient)">
+      <rect width="473" height="473" rx="20" stroke="none"/>
+      <rect x="1.5" y="1.5" width="470" height="470" rx="18.5" fill="none"/>
+    </g>
+    <path id="video-camera" d="M227.883,4a52.127,52.127,0,0,1,52.127,52.127V229.883a52.127,52.127,0,0,1-52.127,52.127H54.127A52.127,52.127,0,0,1,2,229.883V56.127A52.127,52.127,0,0,1,54.127,4Zm165.012,6.178a17.386,17.386,0,0,1,25.754,12.089l.25,2.986.1,235.488A17.384,17.384,0,0,1,395.72,277.1L393,275.834l-78.232-44.7V54.866Z" transform="translate(45.5 120)" fill="#ce3737" opacity="0.59"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Meetify)">
+      <text id="Meetify-2" data-name="Meetify" transform="translate(24 187)" fill="#fff" font-size="120" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="-211.289" y="114">Meetify</tspan></text>
+    </g>
+  </g>
+</svg>

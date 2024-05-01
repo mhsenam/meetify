@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_2);
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-7 {
+        filter: url(#video-camera);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#f03e3e"/>
+    </linearGradient>
+    <filter id="video-camera" x="30" y="109.495" width="452" height="313.009" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_2">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" class="cls-1">
+    <rect class="cls-6" width="512" height="512"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-4" width="512" height="512" rx="150"/>
+      <rect class="cls-5" x="2.5" y="2.5" width="507" height="507" rx="147.5"/>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="video-camera-2" data-name="video-camera" class="cls-3" d="M227.883,4a52.127,52.127,0,0,1,52.127,52.127V229.883a52.127,52.127,0,0,1-52.127,52.127H54.127A52.127,52.127,0,0,1,2,229.883V56.127A52.127,52.127,0,0,1,54.127,4Zm165.012,6.178a17.386,17.386,0,0,1,25.754,12.089l.25,2.986.1,235.488A17.384,17.384,0,0,1,395.72,277.1L393,275.834l-78.232-44.7V54.866Z" transform="translate(45.5 118)"/>
+    </g>
+  </g>
+</svg>
