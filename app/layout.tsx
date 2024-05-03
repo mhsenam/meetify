@@ -9,7 +9,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
-
+require("events").EventEmitter.defaultMaxListeners = 15;
 export const metadata: Metadata = {
   title: "Meetify | Video confrence anywehere",
   description: "Video calling App",
